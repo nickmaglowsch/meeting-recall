@@ -1,0 +1,13 @@
+{
+  "name": "meeting-recall",
+  "description": "Query your local Meetily meeting transcripts and summaries to answer questions about past meetings — decisions, action items, and topic discussions. Local-only and read-only.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Nick Maglowsch",
+    "url": "https://github.com/nickmaglowsch"
+  },
+  "homepage": "https://github.com/nickmaglowsch/meeting-recall",
+  "repository": "https://github.com/nickmaglowsch/meeting-recall",
+  "license": "MIT",
+  "keywords": ["meetily", "meetings", "transcripts", "recall", "sqlite", "skill"]
+}

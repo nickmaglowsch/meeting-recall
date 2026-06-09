@@ -1,0 +1,10 @@
+# macOS
+.DS_Store
+
+# Never commit local meeting data or DB exports
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.db
+transcripts/
+exports/

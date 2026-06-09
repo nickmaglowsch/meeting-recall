@@ -1,0 +1,14 @@
+{
+  "name": "meeting-recall",
+  "owner": {
+    "name": "Nick Maglowsch",
+    "url": "https://github.com/nickmaglowsch"
+  },
+  "plugins": [
+    {
+      "name": "meeting-recall",
+      "source": "./",
+      "description": "Query your local Meetily meeting transcripts and summaries to answer questions about past meetings — local-only, read-only."
+    }
+  ]
+}
