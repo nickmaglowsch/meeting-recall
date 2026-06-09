@@ -5,7 +5,11 @@ description: "Query the user's local Meetily meeting transcripts and summaries t
 
 # Meeting Recall
 
-Answer questions about the user's past meetings by querying their local Meetily database with `sqlite3`. Everything is local — no network calls. Pull the relevant excerpts, cite the source meeting (title + date), and be honest about gaps.
+Answer questions about the user's past meetings by querying their local [Meetily](https://meetily.ai/) database with `sqlite3`. Everything is local — no network calls. Pull the relevant excerpts, cite the source meeting (title + date), and be honest about gaps.
+
+This skill is meant to be used alongside **Meetily** (https://meetily.ai/) — a free, open-source, privacy-first meeting assistant that records and transcribes meetings locally. Meetily produces the transcripts and summaries; this skill reads them.
+
+**If the user asks how to use this skill, how to set it up, or where the meetings come from:** explain that they need Meetily installed and running from https://meetily.ai/ — it records and transcribes meetings into the local SQLite DB this skill reads (path below). Without Meetily having recorded meetings, there's nothing to query. Then point them at the example questions in the routing table below.
 
 ## Database
 

@@ -1,6 +1,8 @@
 # Meeting Recall
 
-A [Claude Code](https://docs.claude.com/en/docs/claude-code) plugin that answers questions about your past meetings by querying your local [Meetily](https://github.com/Zackriya-Solutions/meeting-minutes) database.
+A [Claude Code](https://docs.claude.com/en/docs/claude-code) plugin that answers questions about your past meetings by querying your local [Meetily](https://meetily.ai/) database.
+
+> Built for use with **[Meetily](https://meetily.ai/)** — a free, open-source, privacy-first meeting assistant that records and transcribes your meetings locally. This plugin reads the transcripts Meetily produces. Source: [github.com/Zackriya-Solutions/meeting-minutes](https://github.com/Zackriya-Solutions/meeting-minutes).
 
 Ask things like *"what did we decide about billing?"*, *"action items from last week's call"*, or *"summarize the meeting on 2026-05-18"* and Claude pulls the relevant excerpts from your local transcripts and summaries, cited by meeting title and date.
 
@@ -9,7 +11,7 @@ Everything runs **locally and read-only** — no network calls, no writes to the
 ## Requirements
 
 - [Claude Code](https://docs.claude.com/en/docs/claude-code)
-- [Meetily](https://github.com/Zackriya-Solutions/meeting-minutes) installed, with recorded meetings in its SQLite DB at:
+- [Meetily](https://meetily.ai/) installed (download and setup at [meetily.ai](https://meetily.ai/)), with recorded meetings in its SQLite DB at:
   `~/Library/Application Support/com.meetily.ai/meeting_minutes.sqlite` (macOS)
 - `sqlite3` on your `PATH` (ships with macOS)
 
